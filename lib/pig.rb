@@ -1,4 +1,5 @@
 require_relative './player'
+require_relative 'leaderboard'
 
 class Pig
   def initialize
@@ -60,3 +61,4 @@ class Pig
     end
   end
 end
+Pig.new
