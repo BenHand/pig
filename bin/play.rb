@@ -1,5 +1,7 @@
+require_relative '../db/setup'
 require_relative '../lib/pig'
 require_relative '../lib/hog'
+require_relative '../lib/leaderboard'
 
 def select_from(hash)
   loop do
